@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #f3f3f33a;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    width: 1366px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.5rem 0.5rem 0.5rem #000000, -0.1rem -0rem -0.1rem #000000;
+}
+
+
+
+
+
+
+
+
+
+
+/* section1 start */
+#section1{
+    display: flex;
+    padding: 20px;
+}
+
+.text{
+    width: 50%;
+    padding: 50px 50px 0px 50px;
+}
+
+#section1 .title{
+    display: flex;
+}
+
+#section1 .title .design-div{
+    margin: 12px 20px 0px 0px;
+    padding: 0px;
+    width: 0px;
+    height: 140px;
+    border: 4px solid tomato;
+    background-color: tomato;
+    border-radius: 50px;
+}
+
+#section1 .title .heading h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+} 
+
+#section1 .paragraph-text{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.common-button{
+    border: none;
+    padding: 15px 20px;
+    background-image: linear-gradient(rgb(255, 0, 98), tomato);
+    color: white;
+    margin: 30px 0;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.common-button:hover:hover{
+    transform: scale(1.1);
+}
+
+.image{
+    width: 50%;
+    padding: 0px 50px 0px 50px;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+/* section1 end....................................................................... */
+
+
+
+/* section2 start */
+
+#section2{
+    padding: 20px;
+}
+
+#section2 .heading{
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#section2 .card-div{
+    padding: 50px;
+    display: flex;
+}
+
+#section2 .card-div .card-common{
+    width: 30%;
+    padding: 18px;
+    margin: 0 20px;
+    background-color: #4f9da625;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#section2 .card-div .card-common .card-image{
+
+}
+
+#section2 .card-div .card-common .card-image img{
+    width: 80%;
+    height: auto;
+}
+
+#section2 .card-div .card-common .card-text h3{
+    font-size: 24px;
+    background-color: hotpink;
+    margin: 10px 0;
+}
+
+#section2 .card-div .card2{
+    background-color: rgba(255, 105, 180, 0.151);
+}
+
+#section2 .card-div .card3{
+    background-color: #fff4d696;
+}
+
+/* section2 end....................................................................................... */
+
+/* section3 starts */
+
+h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#section3{
+    background-image: url(images/shapes/dream-bg.png), url(images/shapes/dots.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 300px, 350px;
+    background-position-x: 0px, 1100px;
+    background-position-y: 150px, -200px;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#section3 p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* section3 end ............................................................................*/
+
+
+
+/* section4 starts */
+
+#section4{
+    background-image: url(images/shapes/dots.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-x: -200px;
+    background-position-y: 400px;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#section4 p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* section4 ends.......................................................................... */
+
+
+/* section5 starts */
+
+#section5{
+    padding: 80px 50px 150px 50px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+#section5 .section-heading h2{
+    margin-bottom: 20px;
+}
+
+#section5 .contract-form{
+    margin-top: 50px;
+}
+#section5 .contract-div input, textarea{
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid tomato ;
+    border-radius: 5px;
+    resize: none;
+}
+
+#section5 .send{    
+    margin-left: 220px;
+    float: left;
+    height: 60px;
+    width: 100px;
+}
+#section5 .reset{
+    margin-right: 220px;
+    float: right;
+    height: 60px;
+    width: 100px;
+}
+
+/* section5 end ......................................................................*/
+
+/* footer starts */
+
+footer{
+    background-color: black;
+    padding: 25px;
+}
+
+footer p, h6{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer h6{
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    line-height: 80px;
+}
+/* footer ends ....................................................................*/
+
+
+
